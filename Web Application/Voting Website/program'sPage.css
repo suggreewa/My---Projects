@@ -1,0 +1,116 @@
+body {
+  background-color: rgba(66, 103, 178, 0.1);
+}
+
+.banner {
+    display: block;
+    margin: 2px auto;
+    width: 100%;
+    height: 150px;
+    border: 3px solid #4267B2;
+    border-radius: 10px;
+}
+
+.logo {
+  display: block;
+  float: left;
+  width: 450px;
+  height: 450px;
+  border: 3px solid #4267B2;
+  border-radius: 10px;
+  margin: 75px;
+}
+.description {
+  display: block;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  margin-top: 130px;
+  font-size: 1.25em;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.button-icon {
+  height: 20px;
+  width: 20px;
+  float: left;
+}
+
+.buttons {
+  display: flex;
+  float: inline-end;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  padding: 10px;
+  margin: 20px;
+  background-color: #4267B2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #4267B2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 15%;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 3px solid #4267B2;
+  border-radius: 10px;
+}
+.avatar:hover {
+  border: 3px solid gold;
+}
+
+
+.name {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.vote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #4267B2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.vote:hover {
+  background-color: #3658A0;
+}
+
+.vote-icon {
+  height: 20px;
+  width: 20px;
+  padding-right: 10px;
+}

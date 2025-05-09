@@ -1,0 +1,84 @@
+body {
+  background-color:rgba(66, 103, 178, 0.1);
+}
+
+h1 {
+  color: #4267B2;
+  text-align:center;
+}
+
+.vote {
+  display: flex;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 10px;
+  background-color: #4267B2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.vote:hover {
+  background-color: #3658A0;
+}
+
+.vote-icon {
+  height: 20px;
+  width: 20px;
+  padding-right: 10px;
+}
+
+.profileimage {
+  display: block;
+  float: left;
+  width: 450px;
+  height: 450px;
+  border: 3px solid #4267B2;
+  border-radius: 10px;
+  margin: 75px;
+}
+
+.bio {
+  display: block;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  margin-top: 130px;
+  font-size: 1.25em;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #4267B2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.preview {
+  width: 150px;
+  margin: 15px;
+}
+
+.videopreview {
+  width: 150px;
+  height: 100px;
+}
